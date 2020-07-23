@@ -5,6 +5,7 @@ import pandas as pd  # for creating dataframe and saving to csv file.
 import time   # for creating break between requests to simulate the human user.
 from random import randint  # for creating a random time breaks
 
+
 # These arrays will include all the scraped result
 titles = []
 all_courses = []
