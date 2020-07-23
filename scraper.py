@@ -13,7 +13,7 @@ all_hours = []
 """
 In this section we want to open a webdriver and get the url to pluralsight paths page.
 """
-# Path to chromedriver (Change it if you've forked the script).
+# Path to chromedriver (You have to specify the directory where you've saved the chromedriver).
 path_to_chromedriver = '/Users/arian/WorkSpace/dev/scraper/drivers/chromedriver'
 # Opening a dirver.
 driver = webdriver.Chrome(executable_path=path_to_chromedriver)
